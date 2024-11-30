@@ -1,0 +1,40 @@
+# Ignorar archivos de entorno
+.env
+
+# Ignorar la carpeta de módulos de Node.js
+node_modules/
+
+# Ignorar los logs
+*.log
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Ignorar datos del sistema operativo
+.DS_Store
+Thumbs.db
+
+# Ignorar carpetas temporales y de construcción
+/tmp
+/dist
+/build
+/out
+.cache/
+
+# Ignorar configuraciones de editores de texto/IDE
+.vscode/
+.idea/
+*.sublime-workspace
+
+# Ignorar dependencias específicas para producción
+.pnpm-debug.log*
+yarn.lock
+package-lock.json
+
+# Ignorar archivos creados por herramientas de testing
+coverage/
+.nyc_output/
+
+# Ignorar configuración local de Git
+*.swp
+*.swm
